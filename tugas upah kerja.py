@@ -6,18 +6,18 @@ JamKerjaNormal = 48
 UpahLembur = 3000
 
 nama_karyawan = (input("Masukkan nama karyawan: "))
-golongan = str(input('Masukkan golongan(A-D): '))
+golongan = str(input('Masukkan golongan(A-D): ')).lower
 jam_kerja = int(input('Masukkan jam kerja: '))
 jam_lembur = int(input('Masukkan jam lembur: '))
 
 
-if golongan == "A":
+if golongan == "a":
     upah_per_jam = 4000
-elif golongan == "B":
+elif golongan == "b":
     upah_per_jam = 5000
-elif golongan == "C":
+elif golongan == "c":
     upah_per_jam = 6000
-elif golongan == "D":
+elif golongan == "d":
     upah_per_jam = 7500
 
 if jam_kerja < JamKerjaNormal:
