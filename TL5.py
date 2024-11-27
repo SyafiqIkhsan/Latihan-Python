@@ -1,5 +1,10 @@
-jumlah = 0 
-for a in range (5):
-    print(a+1, end=('+'))
-    jumlah = jumlah + (a + 1)
-print('=',jumlah)
+jumlah = 0
+count = 6
+
+for a in range(1, count):
+    print(a,end=" ")
+    if a != count - 1:
+        print("+", end=" ")
+    jumlah = jumlah + a
+
+print("=",jumlah)

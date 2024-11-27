@@ -1,4 +1,4 @@
-c:\smakzie\Ngoding\Python\tugas konversi suhu.pykarakter = input('Masukkan karakter : ').upper()
+input('Masukkan karakter : ').upper()
 nilaiMatematika = int(input('Masukkan nilai matematika : '))
 nilaiBindonesia = int(input('Masukkan nilai B. Indo : '))
 nilaiBinggris = int(input('Masukkan nilai B. Inggris : '))
